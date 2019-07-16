@@ -1,0 +1,1 @@
+export default 'ROLE_MANAGER' + '_';

@@ -1,0 +1,21 @@
+.carousel_to {
+  position: absolute;
+  bottom: 10px;
+  font-size: 30px;
+  color: white;
+  z-index: 999;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.carousel_to:hover {
+  opacity: 1;
+}
+
+.carousel_to.left {
+  left: 10px;
+}
+.carousel_to.right {
+  right: 10px;
+}

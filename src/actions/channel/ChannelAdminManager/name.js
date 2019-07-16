@@ -1,0 +1,1 @@
+export default 'CHANNEL_ADMIN_MANAGER' + '_';

@@ -1,0 +1,12 @@
+.form-inline .ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.form-inline .ant-form-item-control-wrapper {
+  width: 100%;
+}
+
+.form-inline .ant-form-item-children > span:last-child {
+  float: left;
+}

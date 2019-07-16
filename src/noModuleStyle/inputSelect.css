@@ -1,0 +1,44 @@
+/* antd 3.9.3 */
+/* .inputSelect {
+  width: 0 !important;
+  padding: 0 !important;
+  border-right: none !important;
+}
+.inputSelect+span.ant-input-group-addon{
+  background: white;
+} */
+
+
+.inputSelect .ant-input {
+  width: 0 !important;
+  padding: 0 !important;
+  border-right: none !important;
+}
+.inputSelect .ant-input+span.ant-input-group-addon{
+  background: white;
+}
+
+.input-select-cascader .ant-input-group-addon:first-child + input {
+  display: none;
+}
+
+.input-select-cascader .ant-input-group-addon:last-child,
+.inputCascader .ant-input-wrapper .ant-input-group-addon:last-child  {
+  padding: 0;
+  width: 100%;
+  font-size: 0;
+}
+
+.input-select-cascader .ant-input-group-addon:last-child input,
+.inputCascader .ant-input-wrapper .ant-input-group-addon:last-child input {
+  border: none;
+  border-left: 1px solid #d9d9d9;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.inputCascader .ant-input-wrapper > input {
+  width: 0;
+  padding: 0;
+  border: none;
+}

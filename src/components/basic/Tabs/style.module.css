@@ -1,0 +1,4 @@
+.layout {
+    height: calc(100vh - 96px - var(--extraPx));
+    overflow: auto;
+}

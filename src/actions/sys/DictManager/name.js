@@ -1,0 +1,1 @@
+export default 'DICT_MANAGER' + '_';

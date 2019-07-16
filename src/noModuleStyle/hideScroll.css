@@ -1,0 +1,27 @@
+.ant-table-header, .ant-table-body-inner {
+  overflow-y: scroll;
+}
+.ant-table-fixed-left .ant-table-header,
+.ant-table-fixed-right .ant-table-header {
+  margin-bottom: auto !important;
+  padding-bottom: auto !important;
+}
+.ant-table-header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  overflow-x: hidden !important;
+}
+/* .ant-table-body {
+  overflow-x: auto !important;
+} */
+.ant-table-header::-webkit-scrollbar,
+.ant-table-body-inner::-webkit-scrollbar,
+.ant-table-body::-webkit-scrollbar {
+  background: white;
+}
+.ant-table-body::-webkit-scrollbar-thumb,
+.ant-table-body-inner::-webkit-scrollbar-thumb {
+  background: #eee;
+  border: 3px solid white;
+  border-radius: 10px;
+}

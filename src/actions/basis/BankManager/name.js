@@ -1,0 +1,1 @@
+export default 'BANK_MANAGER' + '_';

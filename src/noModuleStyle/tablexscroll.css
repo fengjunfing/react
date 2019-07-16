@@ -1,0 +1,17 @@
+.tablexscroll .ant-table-fixed {
+  table-layout:fixed;
+}
+.tablexscroll .ant-table-fixed tr:nth-child(even) {
+  background-color: #fafafa99;
+}
+.tablexscroll .ant-table-fixed td {
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tables-height div[style="overflow: scroll;"],
+.tables-height div[style="overflow-y: scroll;"]{
+    height: calc(100vh - var(--tables-height) - var(--extraPx));
+}

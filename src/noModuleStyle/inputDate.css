@@ -1,0 +1,15 @@
+.inputDate input[type='text'] {
+  width: 0 !important;
+  padding: 0 !important;
+  border-right: none !important;
+}
+.inputDate .ant-input-group-addon:last-child {
+  width: 0 !important;
+  padding: 0 !important;
+}
+.inputDate span.ant-input-group-addon .ant-calendar-picker-input {
+  border: none !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 29px;
+}

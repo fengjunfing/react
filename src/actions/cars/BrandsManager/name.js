@@ -1,0 +1,1 @@
+export default 'BRANDS_MANAGER' + '_';

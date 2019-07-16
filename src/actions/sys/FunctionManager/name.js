@@ -1,0 +1,1 @@
+export default 'FUNCTION_MANAGER' + '_';

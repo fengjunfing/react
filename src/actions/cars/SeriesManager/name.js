@@ -1,0 +1,1 @@
+export default 'SERIES_MANAGER' + '_';
